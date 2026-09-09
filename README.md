@@ -60,7 +60,7 @@ stats = ComptonResponseCreator(
 
 * **Arbitrary binning**
 
-  The response can be generated with arbitrary binning, including independently defined binning for $E_i$, $E_m$, $\nu\lambda$, and $\psi\chi$.
+  The response can be generated with arbitrary binning, including independently defined binning for $E_i$, $E_m$, $\phi$, $\nu\lambda$, and $\psi\chi$.
 
 * **Flexible input files**
 
