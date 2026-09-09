@@ -1,6 +1,6 @@
 # ResponseCreator in Python
 
-A script to create a MEGAlib-like Compton Response in Python with arbitrary binning (decoupled binning of $E_m$ and $E_i$, as well as $\phi$, $\nu\lambda$ and $\psi\chi$).
+A script to create a MEGAlib-like Compton Response in Python with arbitrary binning (decoupled binning of $E_m$ and $E_i$, as well as $\phi$, $\nu\lambda$ and $\psi\chi$), directly in .h5 - format.
 
 ## Use Example
 
