@@ -11,7 +11,7 @@ Ei_edges = np.linspace(20, 3000, 101)
 Em_edges = np.linspace(20, 3000, 101)
 
 stats = ComptonResponseCreator(
-    tra_filename   = '/mnt/cluster/rreinhardt/RSL7_ComptonCamera/Mass_Model_old/RSL7_iso.tra.gz',
+    tra_filename   = '/your/tra/file/path.tra.gz',
     Ei_edges       = Ei_edges,
     Em_edges       = Em_edges,
     nside_nulambda = 4,
@@ -21,7 +21,7 @@ stats = ComptonResponseCreator(
     dtype          = np.float32,
     max_sq         = 7,
     n_workers      = 30,
-    save_path      = '/mnt/cluster/rreinhardt/RSL7_ComptonCamera/Responses/Test.h5',
+    save_path      = '/your/response/save/file/path.h5',
     overwrite      = True,
 )
 ```
