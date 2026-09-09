@@ -33,15 +33,15 @@ stats = ComptonResponseCreator(
 | `tra_filename`   | `.tra` / `.tra.gz` or nested concat file                            |
 | `Ei_edges`       | Bin edges for initial energy [keV]                                  |
 | `Em_edges`       | Bin edges for measured energy [keV]                                 |
-| `nside_nulambda` | HEALPix NSIDE for source direction $(\nu\lambda)$                  |
-| `nside_psichi`   | HEALPix NSIDE for scatter direction $(\psi\chi)$                   |
-| `phi_bins`       | Number of Compton-angle bins (0–180°)                               |
+| `nside_nulambda` | HEALPix NSIDE for source direction $(\nu\lambda)$                   |
+| `nside_psichi`   | HEALPix NSIDE for scattered $\gamma$-direction $(\psi\chi)$                    |
+| `phi_bins`       | Number of Compton scattering angle bins (0–180°)                               |
 | `save_path`      | Output `.h5` path                                                   |
 | `pol_bins`       | Polarisation bins; `None` (default) = omit Pol axis                 |
 | `max_sq`         | Maximum Compton Sequence length accepted (default: 7)               |
 | `overwrite`      | Overwrite existing output file (default: `False`)                   |
 | `compress`       | Bitshuffle compression in HDF5 (default: `True`)                    |
-| `n_workers`      | `1` = sequential (safe in Jupyter), `N` = parallel worker processes |
+| `n_workers`      | `1` = sequential, `N` = parallel worker processes (limited to your number of threads) |
 | `dtype`          | NumPy dtype for `EFF_AREA` in HDF5 (default: `float32`)             |
 
 ## Returns
