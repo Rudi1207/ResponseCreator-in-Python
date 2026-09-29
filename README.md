@@ -21,7 +21,7 @@ stats = ComptonResponseCreator(
     dtype          = np.float32,
     max_sq         = 7,
     n_workers      = 30,
-    save_path      = '/your/response/save/file/path.h5',
+    save_path      = '/your/response/save/path.h5',
     overwrite      = True,
 )
 ```
